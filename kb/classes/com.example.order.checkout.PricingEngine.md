@@ -6,7 +6,7 @@ description: class PricingEngine, defined in order-service/src/main/java/com/exa
 resource: order-service/src/main/java/com/example/order/checkout/PricingEngine.java
 tags:
 - class
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # PricingEngine
@@ -16,7 +16,7 @@ class PricingEngine, defined in order-service/src/main/java/com/example/order/ch
 ## Linked documents
 
 - [[documents/release-1-4-0|release-1-4-0]] — release_note 1.4.0, found in the text
-- [[documents/pricing-requirements-md|pricing-requirements-md]] — upload, found in the text
+- [[documents/pricing-requirements-md|pricing-requirements-md]] — upload
 
 ## Connections
 

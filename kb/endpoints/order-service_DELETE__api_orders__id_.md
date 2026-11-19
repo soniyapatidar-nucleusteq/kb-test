@@ -6,7 +6,7 @@ description: endpoint DELETE /api/orders/{id}, defined in order-service/src/main
 resource: order-service/src/main/java/com/example/order/OrderApplication.java
 tags:
 - endpoint
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # DELETE /api/orders/{id}

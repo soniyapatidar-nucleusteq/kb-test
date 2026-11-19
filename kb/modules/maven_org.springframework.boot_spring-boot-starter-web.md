@@ -5,7 +5,7 @@ description: module spring-boot-starter-web. Connected to inventory-service, ord
 resource: null
 tags:
 - module
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # spring-boot-starter-web

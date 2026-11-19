@@ -6,7 +6,7 @@ description: endpoint POST /api/supplier-feed, defined in inventory-service/src/
 resource: inventory-service/src/main/java/com/example/inventory/SupplierFeedController.java
 tags:
 - endpoint
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # POST /api/supplier-feed

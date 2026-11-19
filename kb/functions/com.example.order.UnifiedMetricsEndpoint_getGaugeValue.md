@@ -6,7 +6,7 @@ description: function getGaugeValue, defined in order-service/src/main/java/com/
 resource: order-service/src/main/java/com/example/order/UnifiedMetricsEndpoint.java
 tags:
 - function
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # getGaugeValue

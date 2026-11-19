@@ -6,7 +6,7 @@ description: class PricedLine, defined in order-service/src/main/java/com/exampl
 resource: order-service/src/main/java/com/example/order/checkout/PricingEngine.java
 tags:
 - class
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # PricedLine

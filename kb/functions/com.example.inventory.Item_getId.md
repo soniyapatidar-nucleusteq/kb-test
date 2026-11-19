@@ -6,7 +6,7 @@ description: function getId, defined in inventory-service/src/main/java/com/exam
 resource: inventory-service/src/main/java/com/example/inventory/Item.java
 tags:
 - function
-timestamp: '2026-11-19T10:11:45.835409'
+timestamp: '2026-11-19T10:12:52.093964'
 ---
 
 # getId
