@@ -6,7 +6,7 @@ description: class InsufficientStockException, defined in inventory-service/src/
 resource: inventory-service/src/main/java/com/example/inventory/InsufficientStockException.java
 tags:
 - class
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # InsufficientStockException

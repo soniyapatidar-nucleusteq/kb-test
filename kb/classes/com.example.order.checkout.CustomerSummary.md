@@ -6,7 +6,7 @@ description: class CustomerSummary, defined in order-service/src/main/java/com/e
 resource: order-service/src/main/java/com/example/order/checkout/CustomerSummary.java
 tags:
 - class
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # CustomerSummary

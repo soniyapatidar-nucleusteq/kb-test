@@ -6,7 +6,7 @@ description: endpoint GET /api/checkout/summary, defined in order-service/src/ma
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutController.java
 tags:
 - endpoint
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # GET /api/checkout/summary

@@ -7,7 +7,7 @@ description: function one, defined in order-service/src/main/java/com/example/or
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutController.java
 tags:
 - function
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # one

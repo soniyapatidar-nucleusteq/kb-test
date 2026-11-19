@@ -6,7 +6,7 @@ description: function findByCustomerIgnoreCase, defined in order-service/src/mai
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutRepository.java
 tags:
 - function
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # findByCustomerIgnoreCase

@@ -6,7 +6,7 @@ description: endpoint GET /api/orders/{id}, defined in order-service/src/main/ja
 resource: order-service/src/main/java/com/example/order/OrderApplication.java
 tags:
 - endpoint
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # GET /api/orders/{id}

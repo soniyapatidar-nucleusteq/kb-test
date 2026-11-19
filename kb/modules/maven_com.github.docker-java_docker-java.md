@@ -5,7 +5,7 @@ description: module docker-java. Connected to order-service.
 resource: null
 tags:
 - module
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # docker-java

@@ -6,7 +6,7 @@ description: function setQuantity, defined in order-service/src/main/java/com/ex
 resource: order-service/src/main/java/com/example/order/ProductOrder.java
 tags:
 - function
-timestamp: '2026-11-19T10:12:52.093964'
+timestamp: '2026-11-19T15:28:53.512003'
 ---
 
 # setQuantity
