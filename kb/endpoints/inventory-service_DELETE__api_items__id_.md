@@ -6,7 +6,7 @@ description: endpoint DELETE /api/items/{id}, defined in inventory-service/src/m
 resource: inventory-service/src/main/java/com/example/inventory/InventoryApplication.java
 tags:
 - endpoint
-timestamp: '2026-11-19T07:38:32.700863'
+timestamp: '2026-11-19T10:11:45.835409'
 ---
 
 # DELETE /api/items/{id}

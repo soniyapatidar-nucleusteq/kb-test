@@ -6,7 +6,7 @@ description: function unavailable, defined in order-service/src/main/java/com/ex
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutController.java
 tags:
 - function
-timestamp: '2026-11-19T07:38:32.700863'
+timestamp: '2026-11-19T10:11:45.835409'
 ---
 
 # unavailable

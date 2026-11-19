@@ -6,7 +6,7 @@ description: class SupplierFeedImporter, defined in inventory-service/src/main/j
 resource: inventory-service/src/main/java/com/example/inventory/SupplierFeedImporter.java
 tags:
 - class
-timestamp: '2026-11-19T07:38:32.700863'
+timestamp: '2026-11-19T10:11:45.835409'
 ---
 
 # SupplierFeedImporter

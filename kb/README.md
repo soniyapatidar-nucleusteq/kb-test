@@ -1,6 +1,6 @@
 # OKF Bundle — Operational Knowledge Files
 
-OKF v0.1. Generated 2026-11-19T07:38:32.700863 for project `95120843-ced5-4d3e-88bf-c8ff1116f410`.
+OKF v0.1. Generated 2026-11-19T10:11:45.835409 for project `95120843-ced5-4d3e-88bf-c8ff1116f410`.
 
 One markdown file per node of an application knowledge graph. Every file
 opens with YAML front-matter carrying the same six fields:

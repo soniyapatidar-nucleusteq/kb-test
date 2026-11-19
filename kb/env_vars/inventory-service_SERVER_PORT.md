@@ -5,7 +5,7 @@ description: env_var SERVER_PORT. Connected to inventory-service.
 resource: null
 tags:
 - env_var
-timestamp: '2026-11-19T07:38:32.700863'
+timestamp: '2026-11-19T10:11:45.835409'
 ---
 
 # SERVER_PORT
