@@ -1,0 +1,20 @@
+---
+type: FUNCTION
+title: location
+description: function location, defined in order-service/src/main/java/com/example/order/checkout/WorkflowTrace.java.
+  Connected to caller, WorkflowTrace, com.example.order.checkout.
+resource: order-service/src/main/java/com/example/order/checkout/WorkflowTrace.java
+tags:
+- function
+timestamp: '2026-11-19T07:38:32.700863'
+---
+
+# location
+
+function location, defined in order-service/src/main/java/com/example/order/checkout/WorkflowTrace.java. Connected to caller, WorkflowTrace, com.example.order.checkout.
+
+## Connections
+
+- [[functions/com.example.order.checkout.WorkflowTrace_caller|com.example.order.checkout.WorkflowTrace_caller]] — calls, incoming
+- [[classes/com.example.order.checkout.WorkflowTrace|com.example.order.checkout.WorkflowTrace]] — member_of, outgoing
+- [[modules/com.example.order.checkout|com.example.order.checkout]] — defined_in, outgoing

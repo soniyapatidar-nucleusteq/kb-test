@@ -1,0 +1,29 @@
+---
+type: CLASS
+title: SupplierFeedImporter
+description: class SupplierFeedImporter, defined in inventory-service/src/main/java/com/example/inventory/SupplierFeedImporter.java.
+  Connected to inventory-service, SupplierFeedController, ItemRepository and 5 other(s).
+resource: inventory-service/src/main/java/com/example/inventory/SupplierFeedImporter.java
+tags:
+- class
+timestamp: '2026-11-19T07:38:32.700863'
+---
+
+# SupplierFeedImporter
+
+class SupplierFeedImporter, defined in inventory-service/src/main/java/com/example/inventory/SupplierFeedImporter.java. Connected to inventory-service, SupplierFeedController, ItemRepository and 5 other(s).
+
+## Linked documents
+
+- [[documents/inventory-requirements-docx|inventory-requirements-docx]] — upload, found in the text
+
+## Connections
+
+- [[services/inventory-service|inventory-service]] — depends_on, incoming
+- [[classes/com.example.inventory.SupplierFeedController|com.example.inventory.SupplierFeedController]] — uses, incoming
+- [[classes/com.example.inventory.ItemRepository|com.example.inventory.ItemRepository]] — uses, outgoing
+- [[modules/com.example.inventory|com.example.inventory]] — defined_in, outgoing
+- [[functions/com.example.inventory.SupplierFeedImporter_importFeed|com.example.inventory.SupplierFeedImporter_importFeed]] — member_of, incoming
+- [[functions/com.example.inventory.SupplierFeedImporter_columnOf|com.example.inventory.SupplierFeedImporter_columnOf]] — member_of, incoming
+- [[functions/com.example.inventory.SupplierFeedImporter_reject|com.example.inventory.SupplierFeedImporter_reject]] — member_of, incoming
+- [[documents/inventory-requirements-docx|inventory-requirements-docx]] — DESCRIBES, incoming
