@@ -2,16 +2,16 @@
 type: MODULE
 title: com.example.order
 description: module com.example.order. Connected to com.example.order.checkout, OrderApplication,
-  main and 21 other(s).
+  main and 24 other(s).
 resource: null
 tags:
 - module
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # com.example.order
 
-module com.example.order. Connected to com.example.order.checkout, OrderApplication, main and 21 other(s).
+module com.example.order. Connected to com.example.order.checkout, OrderApplication, main and 24 other(s).
 
 ## Connections
 
@@ -24,6 +24,7 @@ module com.example.order. Connected to com.example.order.checkout, OrderApplicat
 - [[functions/com.example.order.OrderApplication_getOne|com.example.order.OrderApplication_getOne]] — defined_in, incoming
 - [[functions/com.example.order.OrderApplication_delete|com.example.order.OrderApplication_delete]] — defined_in, incoming
 - [[classes/com.example.order.OrderRepository|com.example.order.OrderRepository]] — defined_in, incoming
+- [[functions/com.example.order.OrderRepository_findByCheckoutIdOrderById|com.example.order.OrderRepository_findByCheckoutIdOrderById]] — defined_in, incoming
 - [[classes/com.example.order.ProductOrder|com.example.order.ProductOrder]] — defined_in, incoming
 - [[functions/com.example.order.ProductOrder_getId|com.example.order.ProductOrder_getId]] — defined_in, incoming
 - [[functions/com.example.order.ProductOrder_setId|com.example.order.ProductOrder_setId]] — defined_in, incoming
@@ -35,6 +36,8 @@ module com.example.order. Connected to com.example.order.checkout, OrderApplicat
 - [[functions/com.example.order.ProductOrder_setQuantity|com.example.order.ProductOrder_setQuantity]] — defined_in, incoming
 - [[functions/com.example.order.ProductOrder_getCheckoutId|com.example.order.ProductOrder_getCheckoutId]] — defined_in, incoming
 - [[functions/com.example.order.ProductOrder_setCheckoutId|com.example.order.ProductOrder_setCheckoutId]] — defined_in, incoming
+- [[functions/com.example.order.ProductOrder_getItemId|com.example.order.ProductOrder_getItemId]] — defined_in, incoming
+- [[functions/com.example.order.ProductOrder_setItemId|com.example.order.ProductOrder_setItemId]] — defined_in, incoming
 - [[classes/com.example.order.UnifiedMetricsEndpoint|com.example.order.UnifiedMetricsEndpoint]] — defined_in, incoming
 - [[functions/com.example.order.UnifiedMetricsEndpoint_getUnifiedMetrics|com.example.order.UnifiedMetricsEndpoint_getUnifiedMetrics]] — defined_in, incoming
 - [[functions/com.example.order.UnifiedMetricsEndpoint_getGaugeValue|com.example.order.UnifiedMetricsEndpoint_getGaugeValue]] — defined_in, incoming

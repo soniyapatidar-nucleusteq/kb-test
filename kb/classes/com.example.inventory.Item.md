@@ -2,16 +2,16 @@
 type: CLASS
 title: Item
 description: class Item, defined in inventory-service/src/main/java/com/example/inventory/Item.java.
-  Connected to inventory-service, initDatabase, com.example.inventory and 10 other(s).
+  Connected to inventory-service, initDatabase, com.example.inventory and 12 other(s).
 resource: inventory-service/src/main/java/com/example/inventory/Item.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # Item
 
-class Item, defined in inventory-service/src/main/java/com/example/inventory/Item.java. Connected to inventory-service, initDatabase, com.example.inventory and 10 other(s).
+class Item, defined in inventory-service/src/main/java/com/example/inventory/Item.java. Connected to inventory-service, initDatabase, com.example.inventory and 12 other(s).
 
 ## Connections
 
@@ -26,5 +26,7 @@ class Item, defined in inventory-service/src/main/java/com/example/inventory/Ite
 - [[functions/com.example.inventory.Item_setQuantity|com.example.inventory.Item_setQuantity]] — member_of, incoming
 - [[functions/com.example.inventory.Item_getUnitPrice|com.example.inventory.Item_getUnitPrice]] — member_of, incoming
 - [[functions/com.example.inventory.Item_setUnitPrice|com.example.inventory.Item_setUnitPrice]] — member_of, incoming
+- [[functions/com.example.inventory.Item_getBin|com.example.inventory.Item_getBin]] — member_of, incoming
+- [[functions/com.example.inventory.Item_setBin|com.example.inventory.Item_setBin]] — member_of, incoming
 - [[classes/com.example.inventory.ItemRepository|com.example.inventory.ItemRepository]] — uses, incoming
 - [[functions/com.example.inventory.SupplierFeedImporter_importFeed|com.example.inventory.SupplierFeedImporter_importFeed]] — calls, incoming

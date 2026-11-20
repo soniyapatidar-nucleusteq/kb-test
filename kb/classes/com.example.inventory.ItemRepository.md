@@ -2,16 +2,16 @@
 type: CLASS
 title: ItemRepository
 description: class ItemRepository, defined in inventory-service/src/main/java/com/example/inventory/ItemRepository.java.
-  Connected to inventory-service, InventoryApplication, initDatabase and 13 other(s).
+  Connected to inventory-service, InventoryApplication, initDatabase and 15 other(s).
 resource: inventory-service/src/main/java/com/example/inventory/ItemRepository.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # ItemRepository
 
-class ItemRepository, defined in inventory-service/src/main/java/com/example/inventory/ItemRepository.java. Connected to inventory-service, InventoryApplication, initDatabase and 13 other(s).
+class ItemRepository, defined in inventory-service/src/main/java/com/example/inventory/ItemRepository.java. Connected to inventory-service, InventoryApplication, initDatabase and 15 other(s).
 
 ## Connections
 
@@ -26,6 +26,8 @@ class ItemRepository, defined in inventory-service/src/main/java/com/example/inv
 - [[classes/com.example.inventory.Item|com.example.inventory.Item]] — uses, outgoing
 - [[modules/com.example.inventory|com.example.inventory]] — defined_in, outgoing
 - [[functions/com.example.inventory.ItemRepository_findFirstByNameIgnoreCase|com.example.inventory.ItemRepository_findFirstByNameIgnoreCase]] — member_of, incoming
+- [[classes/com.example.inventory.StockReconciliation|com.example.inventory.StockReconciliation]] — uses, incoming
+- [[functions/com.example.inventory.StockReconciliation_checkAll|com.example.inventory.StockReconciliation_checkAll]] — calls, incoming
 - [[classes/com.example.inventory.StockService|com.example.inventory.StockService]] — uses, incoming
 - [[functions/com.example.inventory.StockService_reserve|com.example.inventory.StockService_reserve]] — calls, incoming
 - [[functions/com.example.inventory.StockService_release|com.example.inventory.StockService_release]] — calls, incoming

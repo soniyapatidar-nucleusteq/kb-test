@@ -6,7 +6,7 @@ description: function invalid, defined in order-service/src/main/java/com/exampl
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutController.java
 tags:
 - function
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # invalid

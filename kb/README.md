@@ -1,6 +1,6 @@
 # OKF Bundle — Operational Knowledge Files
 
-OKF v0.1. Generated 2026-11-19T15:28:53.512003 for project `95120843-ced5-4d3e-88bf-c8ff1116f410`.
+OKF v0.1. Generated 2026-11-20T11:54:14.719910 for project `95120843-ced5-4d3e-88bf-c8ff1116f410`.
 
 One markdown file per node of an application knowledge graph. Every file
 opens with YAML front-matter carrying the same six fields:
@@ -28,6 +28,6 @@ Plain UTF-8 markdown in a plain directory. No SDK, no database, no API:
 
 ## Contents
 
-- 175 node document(s)
-- 0 carrying curated runbook prose
-- 2 under `nodes/` (node id prefix has no dedicated directory)
+- 279 node document(s)
+- 1 carrying curated runbook prose
+- 1 under `nodes/` (node id prefix has no dedicated directory)

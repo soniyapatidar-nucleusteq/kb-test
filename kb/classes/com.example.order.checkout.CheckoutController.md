@@ -2,16 +2,16 @@
 type: CLASS
 title: CheckoutController
 description: class CheckoutController, defined in order-service/src/main/java/com/example/order/checkout/CheckoutController.java.
-  Connected to order-service, CheckoutWorkflow, CheckoutRepository and 14 other(s).
+  Connected to order-service, CheckoutRepository, CustomerSummary and 15 other(s).
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutController.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # CheckoutController
 
-class CheckoutController, defined in order-service/src/main/java/com/example/order/checkout/CheckoutController.java. Connected to order-service, CheckoutWorkflow, CheckoutRepository and 14 other(s).
+class CheckoutController, defined in order-service/src/main/java/com/example/order/checkout/CheckoutController.java. Connected to order-service, CheckoutRepository, CustomerSummary and 15 other(s).
 
 ## Linked documents
 
@@ -22,13 +22,14 @@ class CheckoutController, defined in order-service/src/main/java/com/example/ord
 ## Connections
 
 - [[services/order-service|order-service]] — depends_on, incoming
-- [[classes/com.example.order.checkout.CheckoutWorkflow|com.example.order.checkout.CheckoutWorkflow]] — uses, outgoing
 - [[classes/com.example.order.checkout.CheckoutRepository|com.example.order.checkout.CheckoutRepository]] — uses, outgoing
 - [[classes/com.example.order.checkout.CustomerSummary|com.example.order.checkout.CustomerSummary]] — uses, outgoing
+- [[classes/com.example.order.checkout.CheckoutWorkflow|com.example.order.checkout.CheckoutWorkflow]] — uses, outgoing
 - [[modules/com.example.order.checkout|com.example.order.checkout]] — defined_in, outgoing
 - [[functions/com.example.order.checkout.CheckoutController_checkout|com.example.order.checkout.CheckoutController_checkout]] — member_of, incoming
 - [[functions/com.example.order.checkout.CheckoutController_recent|com.example.order.checkout.CheckoutController_recent]] — member_of, incoming
 - [[functions/com.example.order.checkout.CheckoutController_summary|com.example.order.checkout.CheckoutController_summary]] — member_of, incoming
+- [[functions/com.example.order.checkout.CheckoutController_reprintSlip|com.example.order.checkout.CheckoutController_reprintSlip]] — member_of, incoming
 - [[functions/com.example.order.checkout.CheckoutController_one|com.example.order.checkout.CheckoutController_one]] — member_of, incoming
 - [[functions/com.example.order.checkout.CheckoutController_invalid|com.example.order.checkout.CheckoutController_invalid]] — member_of, incoming
 - [[functions/com.example.order.checkout.CheckoutController_outOfStock|com.example.order.checkout.CheckoutController_outOfStock]] — member_of, incoming

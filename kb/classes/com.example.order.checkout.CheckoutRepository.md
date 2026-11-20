@@ -2,19 +2,21 @@
 type: CLASS
 title: CheckoutRepository
 description: class CheckoutRepository, defined in order-service/src/main/java/com/example/order/checkout/CheckoutRepository.java.
-  Connected to order-service, CheckoutController, one and 8 other(s).
+  Connected to fail, CustomerSummary, order-service and 9 other(s).
 resource: order-service/src/main/java/com/example/order/checkout/CheckoutRepository.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # CheckoutRepository
 
-class CheckoutRepository, defined in order-service/src/main/java/com/example/order/checkout/CheckoutRepository.java. Connected to order-service, CheckoutController, one and 8 other(s).
+class CheckoutRepository, defined in order-service/src/main/java/com/example/order/checkout/CheckoutRepository.java. Connected to fail, CustomerSummary, order-service and 9 other(s).
 
 ## Connections
 
+- [[functions/com.example.order.checkout.CheckoutWorkflow_fail|com.example.order.checkout.CheckoutWorkflow_fail]] — calls, incoming
+- [[classes/com.example.order.checkout.CustomerSummary|com.example.order.checkout.CustomerSummary]] — uses, incoming
 - [[services/order-service|order-service]] — depends_on, incoming
 - [[classes/com.example.order.checkout.CheckoutController|com.example.order.checkout.CheckoutController]] — uses, incoming
 - [[functions/com.example.order.checkout.CheckoutController_one|com.example.order.checkout.CheckoutController_one]] — calls, incoming
@@ -24,5 +26,4 @@ class CheckoutRepository, defined in order-service/src/main/java/com/example/ord
 - [[functions/com.example.order.checkout.CheckoutRepository_findByCustomerIgnoreCase|com.example.order.checkout.CheckoutRepository_findByCustomerIgnoreCase]] — member_of, incoming
 - [[classes/com.example.order.checkout.CheckoutWorkflow|com.example.order.checkout.CheckoutWorkflow]] — uses, incoming
 - [[functions/com.example.order.checkout.CheckoutWorkflow_run|com.example.order.checkout.CheckoutWorkflow_run]] — calls, incoming
-- [[functions/com.example.order.checkout.CheckoutWorkflow_fail|com.example.order.checkout.CheckoutWorkflow_fail]] — calls, incoming
-- [[classes/com.example.order.checkout.CustomerSummary|com.example.order.checkout.CustomerSummary]] — uses, incoming
+- [[functions/com.example.order.checkout.CheckoutWorkflow_reprintSlip|com.example.order.checkout.CheckoutWorkflow_reprintSlip]] — calls, incoming

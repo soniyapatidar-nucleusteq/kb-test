@@ -6,7 +6,7 @@ description: function columnOf, defined in inventory-service/src/main/java/com/e
 resource: inventory-service/src/main/java/com/example/inventory/SupplierFeedImporter.java
 tags:
 - function
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # columnOf

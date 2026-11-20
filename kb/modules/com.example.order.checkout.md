@@ -1,20 +1,31 @@
 ---
 type: MODULE
 title: com.example.order.checkout
-description: module com.example.order.checkout. Connected to com.example.order, com.example.order,
-  Checkout and 68 other(s).
+description: module com.example.order.checkout. Connected to fail, CustomerSummary,
+  reserve and 75 other(s).
 resource: null
 tags:
 - module
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # com.example.order.checkout
 
-module com.example.order.checkout. Connected to com.example.order, com.example.order, Checkout and 68 other(s).
+module com.example.order.checkout. Connected to fail, CustomerSummary, reserve and 75 other(s).
 
 ## Connections
 
+- [[functions/com.example.order.checkout.CheckoutWorkflow_fail|com.example.order.checkout.CheckoutWorkflow_fail]] — defined_in, incoming
+- [[classes/com.example.order.checkout.CustomerSummary|com.example.order.checkout.CustomerSummary]] — defined_in, incoming
+- [[functions/com.example.order.checkout.InventoryClient_reserve|com.example.order.checkout.InventoryClient_reserve]] — defined_in, incoming
+- [[functions/com.example.order.checkout.CustomerSummary_of|com.example.order.checkout.CustomerSummary_of]] — defined_in, incoming
+- [[classes/com.example.order.checkout.Summary|com.example.order.checkout.Summary]] — defined_in, incoming
+- [[classes/com.example.order.checkout.InvalidCheckoutException|com.example.order.checkout.InvalidCheckoutException]] — defined_in, incoming
+- [[classes/com.example.order.checkout.InventoryClient|com.example.order.checkout.InventoryClient]] — defined_in, incoming
+- [[functions/com.example.order.checkout.InventoryClient_getItem|com.example.order.checkout.InventoryClient_getItem]] — defined_in, incoming
+- [[functions/com.example.order.checkout.InventoryClient_release|com.example.order.checkout.InventoryClient_release]] — defined_in, incoming
+- [[functions/com.example.order.checkout.InventoryClient_call|com.example.order.checkout.InventoryClient_call]] — defined_in, incoming
+- [[functions/com.example.order.checkout.InventoryClient_pause|com.example.order.checkout.InventoryClient_pause]] — defined_in, incoming
 - [[modules/com.example.order|com.example.order]] — imports, incoming
 - [[modules/com.example.order|com.example.order]] — imports, outgoing
 - [[classes/com.example.order.checkout.Checkout|com.example.order.checkout.Checkout]] — defined_in, incoming
@@ -42,6 +53,7 @@ module com.example.order.checkout. Connected to com.example.order, com.example.o
 - [[functions/com.example.order.checkout.CheckoutController_checkout|com.example.order.checkout.CheckoutController_checkout]] — defined_in, incoming
 - [[functions/com.example.order.checkout.CheckoutController_recent|com.example.order.checkout.CheckoutController_recent]] — defined_in, incoming
 - [[functions/com.example.order.checkout.CheckoutController_summary|com.example.order.checkout.CheckoutController_summary]] — defined_in, incoming
+- [[functions/com.example.order.checkout.CheckoutController_reprintSlip|com.example.order.checkout.CheckoutController_reprintSlip]] — defined_in, incoming
 - [[functions/com.example.order.checkout.CheckoutController_one|com.example.order.checkout.CheckoutController_one]] — defined_in, incoming
 - [[functions/com.example.order.checkout.CheckoutController_invalid|com.example.order.checkout.CheckoutController_invalid]] — defined_in, incoming
 - [[functions/com.example.order.checkout.CheckoutController_outOfStock|com.example.order.checkout.CheckoutController_outOfStock]] — defined_in, incoming
@@ -53,17 +65,5 @@ module com.example.order.checkout. Connected to com.example.order, com.example.o
 - [[functions/com.example.order.checkout.CheckoutRepository_findByCustomerIgnoreCase|com.example.order.checkout.CheckoutRepository_findByCustomerIgnoreCase]] — defined_in, incoming
 - [[classes/com.example.order.checkout.CheckoutRequest|com.example.order.checkout.CheckoutRequest]] — defined_in, incoming
 - [[classes/com.example.order.checkout.Line|com.example.order.checkout.Line]] — defined_in, incoming
-- [[classes/com.example.order.checkout.CheckoutWorkflow|com.example.order.checkout.CheckoutWorkflow]] — defined_in, incoming
-- [[functions/com.example.order.checkout.CheckoutWorkflow_run|com.example.order.checkout.CheckoutWorkflow_run]] — defined_in, incoming
-- [[functions/com.example.order.checkout.CheckoutWorkflow_recent|com.example.order.checkout.CheckoutWorkflow_recent]] — defined_in, incoming
-- [[functions/com.example.order.checkout.CheckoutWorkflow_validate|com.example.order.checkout.CheckoutWorkflow_validate]] — defined_in, incoming
-- [[functions/com.example.order.checkout.CheckoutWorkflow_fail|com.example.order.checkout.CheckoutWorkflow_fail]] — defined_in, incoming
-- [[classes/com.example.order.checkout.CustomerSummary|com.example.order.checkout.CustomerSummary]] — defined_in, incoming
-- [[functions/com.example.order.checkout.CustomerSummary_of|com.example.order.checkout.CustomerSummary_of]] — defined_in, incoming
-- [[classes/com.example.order.checkout.Summary|com.example.order.checkout.Summary]] — defined_in, incoming
-- [[classes/com.example.order.checkout.InvalidCheckoutException|com.example.order.checkout.InvalidCheckoutException]] — defined_in, incoming
-- [[classes/com.example.order.checkout.InventoryClient|com.example.order.checkout.InventoryClient]] — defined_in, incoming
-- [[functions/com.example.order.checkout.InventoryClient_reserve|com.example.order.checkout.InventoryClient_reserve]] — defined_in, incoming
-- [[functions/com.example.order.checkout.InventoryClient_release|com.example.order.checkout.InventoryClient_release]] — defined_in, incoming
 
-_21 further connection(s) not listed._
+_28 further connection(s) not listed._

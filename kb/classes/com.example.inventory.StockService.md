@@ -2,16 +2,16 @@
 type: CLASS
 title: StockService
 description: class StockService, defined in inventory-service/src/main/java/com/example/inventory/StockService.java.
-  Connected to inventory-service, StockController, ItemRepository and 4 other(s).
+  Connected to inventory-service, StockController, ItemRepository and 6 other(s).
 resource: inventory-service/src/main/java/com/example/inventory/StockService.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # StockService
 
-class StockService, defined in inventory-service/src/main/java/com/example/inventory/StockService.java. Connected to inventory-service, StockController, ItemRepository and 4 other(s).
+class StockService, defined in inventory-service/src/main/java/com/example/inventory/StockService.java. Connected to inventory-service, StockController, ItemRepository and 6 other(s).
 
 ## Linked documents
 
@@ -22,7 +22,9 @@ class StockService, defined in inventory-service/src/main/java/com/example/inven
 - [[services/inventory-service|inventory-service]] — depends_on, incoming
 - [[classes/com.example.inventory.StockController|com.example.inventory.StockController]] — uses, incoming
 - [[classes/com.example.inventory.ItemRepository|com.example.inventory.ItemRepository]] — uses, outgoing
+- [[classes/com.example.inventory.StockMovementRepository|com.example.inventory.StockMovementRepository]] — uses, outgoing
 - [[modules/com.example.inventory|com.example.inventory]] — defined_in, outgoing
 - [[functions/com.example.inventory.StockService_reserve|com.example.inventory.StockService_reserve]] — member_of, incoming
 - [[functions/com.example.inventory.StockService_release|com.example.inventory.StockService_release]] — member_of, incoming
+- [[functions/com.example.inventory.StockService_lowStock|com.example.inventory.StockService_lowStock]] — member_of, incoming
 - [[documents/inventory-requirements-docx|inventory-requirements-docx]] — DESCRIBES, incoming

@@ -5,7 +5,7 @@ description: env_var INVENTORY_BASE_URL. Connected to order-service.
 resource: null
 tags:
 - env_var
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # INVENTORY_BASE_URL

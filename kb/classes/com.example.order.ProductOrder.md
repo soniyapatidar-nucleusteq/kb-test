@@ -2,16 +2,16 @@
 type: CLASS
 title: ProductOrder
 description: class ProductOrder, defined in order-service/src/main/java/com/example/order/ProductOrder.java.
-  Connected to order-service, seedOrders, OrderRepository and 12 other(s).
+  Connected to order-service, seedOrders, OrderRepository and 14 other(s).
 resource: order-service/src/main/java/com/example/order/ProductOrder.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # ProductOrder
 
-class ProductOrder, defined in order-service/src/main/java/com/example/order/ProductOrder.java. Connected to order-service, seedOrders, OrderRepository and 12 other(s).
+class ProductOrder, defined in order-service/src/main/java/com/example/order/ProductOrder.java. Connected to order-service, seedOrders, OrderRepository and 14 other(s).
 
 ## Connections
 
@@ -29,4 +29,6 @@ class ProductOrder, defined in order-service/src/main/java/com/example/order/Pro
 - [[functions/com.example.order.ProductOrder_setQuantity|com.example.order.ProductOrder_setQuantity]] — member_of, incoming
 - [[functions/com.example.order.ProductOrder_getCheckoutId|com.example.order.ProductOrder_getCheckoutId]] — member_of, incoming
 - [[functions/com.example.order.ProductOrder_setCheckoutId|com.example.order.ProductOrder_setCheckoutId]] — member_of, incoming
+- [[functions/com.example.order.ProductOrder_getItemId|com.example.order.ProductOrder_getItemId]] — member_of, incoming
+- [[functions/com.example.order.ProductOrder_setItemId|com.example.order.ProductOrder_setItemId]] — member_of, incoming
 - [[functions/com.example.order.checkout.CheckoutWorkflow_run|com.example.order.checkout.CheckoutWorkflow_run]] — calls, incoming

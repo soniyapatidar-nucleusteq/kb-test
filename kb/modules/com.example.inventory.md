@@ -2,16 +2,16 @@
 type: MODULE
 title: com.example.inventory
 description: module com.example.inventory. Connected to InsufficientStockException,
-  getItemId, getRequested and 39 other(s).
+  getItemId, getRequested and 68 other(s).
 resource: null
 tags:
 - module
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # com.example.inventory
 
-module com.example.inventory. Connected to InsufficientStockException, getItemId, getRequested and 39 other(s).
+module com.example.inventory. Connected to InsufficientStockException, getItemId, getRequested and 68 other(s).
 
 ## Connections
 
@@ -39,21 +39,31 @@ module com.example.inventory. Connected to InsufficientStockException, getItemId
 - [[functions/com.example.inventory.Item_setQuantity|com.example.inventory.Item_setQuantity]] — defined_in, incoming
 - [[functions/com.example.inventory.Item_getUnitPrice|com.example.inventory.Item_getUnitPrice]] — defined_in, incoming
 - [[functions/com.example.inventory.Item_setUnitPrice|com.example.inventory.Item_setUnitPrice]] — defined_in, incoming
+- [[functions/com.example.inventory.Item_getBin|com.example.inventory.Item_getBin]] — defined_in, incoming
+- [[functions/com.example.inventory.Item_setBin|com.example.inventory.Item_setBin]] — defined_in, incoming
 - [[classes/com.example.inventory.ItemRepository|com.example.inventory.ItemRepository]] — defined_in, incoming
 - [[functions/com.example.inventory.ItemRepository_findFirstByNameIgnoreCase|com.example.inventory.ItemRepository_findFirstByNameIgnoreCase]] — defined_in, incoming
+- [[classes/com.example.inventory.ReconciliationController|com.example.inventory.ReconciliationController]] — defined_in, incoming
+- [[functions/com.example.inventory.ReconciliationController_status|com.example.inventory.ReconciliationController_status]] — defined_in, incoming
+- [[functions/com.example.inventory.ReconciliationController_start|com.example.inventory.ReconciliationController_start]] — defined_in, incoming
+- [[functions/com.example.inventory.ReconciliationController_cancel|com.example.inventory.ReconciliationController_cancel]] — defined_in, incoming
+- [[functions/com.example.inventory.ReconciliationController_conflict|com.example.inventory.ReconciliationController_conflict]] — defined_in, incoming
 - [[classes/com.example.inventory.StockController|com.example.inventory.StockController]] — defined_in, incoming
 - [[functions/com.example.inventory.StockController_reserve|com.example.inventory.StockController_reserve]] — defined_in, incoming
 - [[functions/com.example.inventory.StockController_release|com.example.inventory.StockController_release]] — defined_in, incoming
 - [[functions/com.example.inventory.StockController_handleInsufficientStock|com.example.inventory.StockController_handleInsufficientStock]] — defined_in, incoming
 - [[functions/com.example.inventory.StockController_handleNotFound|com.example.inventory.StockController_handleNotFound]] — defined_in, incoming
 - [[functions/com.example.inventory.StockController_handleBadRequest|com.example.inventory.StockController_handleBadRequest]] — defined_in, incoming
-- [[classes/com.example.inventory.StockService|com.example.inventory.StockService]] — defined_in, incoming
-- [[functions/com.example.inventory.StockService_reserve|com.example.inventory.StockService_reserve]] — defined_in, incoming
-- [[functions/com.example.inventory.StockService_release|com.example.inventory.StockService_release]] — defined_in, incoming
-- [[classes/com.example.inventory.SupplierFeedController|com.example.inventory.SupplierFeedController]] — defined_in, incoming
-- [[functions/com.example.inventory.SupplierFeedController_upload|com.example.inventory.SupplierFeedController_upload]] — defined_in, incoming
-- [[classes/com.example.inventory.SupplierFeedImporter|com.example.inventory.SupplierFeedImporter]] — defined_in, incoming
-- [[functions/com.example.inventory.SupplierFeedImporter_importFeed|com.example.inventory.SupplierFeedImporter_importFeed]] — defined_in, incoming
-- [[functions/com.example.inventory.SupplierFeedImporter_columnOf|com.example.inventory.SupplierFeedImporter_columnOf]] — defined_in, incoming
-- [[functions/com.example.inventory.SupplierFeedImporter_reject|com.example.inventory.SupplierFeedImporter_reject]] — defined_in, incoming
-- [[classes/com.example.inventory.FeedResult|com.example.inventory.FeedResult]] — defined_in, incoming
+- [[classes/com.example.inventory.StockMovement|com.example.inventory.StockMovement]] — defined_in, incoming
+- [[functions/com.example.inventory.StockMovement_getId|com.example.inventory.StockMovement_getId]] — defined_in, incoming
+- [[functions/com.example.inventory.StockMovement_getItemId|com.example.inventory.StockMovement_getItemId]] — defined_in, incoming
+- [[functions/com.example.inventory.StockMovement_getDelta|com.example.inventory.StockMovement_getDelta]] — defined_in, incoming
+- [[functions/com.example.inventory.StockMovement_getReason|com.example.inventory.StockMovement_getReason]] — defined_in, incoming
+- [[functions/com.example.inventory.StockMovement_getAt|com.example.inventory.StockMovement_getAt]] — defined_in, incoming
+- [[classes/com.example.inventory.StockMovementRepository|com.example.inventory.StockMovementRepository]] — defined_in, incoming
+- [[functions/com.example.inventory.StockMovementRepository_ledgerStock|com.example.inventory.StockMovementRepository_ledgerStock]] — defined_in, incoming
+- [[classes/com.example.inventory.StockReconciliation|com.example.inventory.StockReconciliation]] — defined_in, incoming
+- [[functions/com.example.inventory.StockReconciliation_start|com.example.inventory.StockReconciliation_start]] — defined_in, incoming
+- [[functions/com.example.inventory.StockReconciliation_cancel|com.example.inventory.StockReconciliation_cancel]] — defined_in, incoming
+
+_21 further connection(s) not listed._

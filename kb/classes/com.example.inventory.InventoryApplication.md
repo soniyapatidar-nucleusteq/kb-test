@@ -2,21 +2,22 @@
 type: CLASS
 title: InventoryApplication
 description: class InventoryApplication, defined in inventory-service/src/main/java/com/example/inventory/InventoryApplication.java.
-  Connected to inventory-service, ItemRepository, com.example.inventory and 9 other(s).
+  Connected to inventory-service, ItemRepository, StockMovementRepository and 10 other(s).
 resource: inventory-service/src/main/java/com/example/inventory/InventoryApplication.java
 tags:
 - class
-timestamp: '2026-11-19T15:28:53.512003'
+timestamp: '2026-11-20T11:54:14.719910'
 ---
 
 # InventoryApplication
 
-class InventoryApplication, defined in inventory-service/src/main/java/com/example/inventory/InventoryApplication.java. Connected to inventory-service, ItemRepository, com.example.inventory and 9 other(s).
+class InventoryApplication, defined in inventory-service/src/main/java/com/example/inventory/InventoryApplication.java. Connected to inventory-service, ItemRepository, StockMovementRepository and 10 other(s).
 
 ## Connections
 
 - [[services/inventory-service|inventory-service]] — depends_on, incoming
 - [[classes/com.example.inventory.ItemRepository|com.example.inventory.ItemRepository]] — uses, outgoing
+- [[classes/com.example.inventory.StockMovementRepository|com.example.inventory.StockMovementRepository]] — uses, outgoing
 - [[modules/com.example.inventory|com.example.inventory]] — defined_in, outgoing
 - [[functions/com.example.inventory.InventoryApplication_main|com.example.inventory.InventoryApplication_main]] — member_of, incoming
 - [[functions/com.example.inventory.InventoryApplication_initDatabase|com.example.inventory.InventoryApplication_initDatabase]] — member_of, incoming
